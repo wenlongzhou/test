@@ -7,5 +7,7 @@ jobs:
   test:
     name: test
     runs-on: ubuntu-latest
+
     steps:
+      -name: testSteps
       run: echo hello world
