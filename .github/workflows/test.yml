@@ -1,7 +1,7 @@
-name: github action
 on:
   push:
-    - master
+    branches:
+      - master
 
 jobs:
   test:
